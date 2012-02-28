@@ -673,7 +673,8 @@ THREAD(Service, arg)
                 if (stream) {
 #ifdef USE_DYNAMIC_THREADS
                     /* Resources are fine, start a new thread and let it run. */
-                    StartServiceThread();
+                    printf("Starting new thread\n");
+					StartServiceThread();
                     NutSleep(1);
 #endif
                     /*

@@ -115,7 +115,7 @@
 #endif
 
 /* Verbose debug port. */
-//#define HTTPD_VERBOSE
+#define HTTPD_VERBOSE
 
 /* Number of server threads always running. */
 #ifndef HTTPD_MIN_THREADS
